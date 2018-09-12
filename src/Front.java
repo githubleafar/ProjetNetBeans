@@ -100,7 +100,4 @@ public class Front {
         System.out.println("Soma dos impares de 0 a 10: " + soma + "\n");
         System.out.println("Produto dos pares de 0 a 10: " + produto + "\n");
     }
-    
-    
-    
 }

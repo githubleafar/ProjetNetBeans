@@ -23,7 +23,7 @@ public class Numeros {
         System.out.println("O maior numero é: " + numero);
     }
 
-    public void numeroDecrescente(int x) {
+    public void numeroDecrescente(int x) { // METODO QUE RECEBE UM NUMERO INTEIRO E FAZ SUA DECOMPOSIÇÃO DELE ATE 0
         for (int i = x; i >= 0; i--) {
             System.out.println(i);
         }
