@@ -86,19 +86,19 @@ public class Front {
         int soma = 0;
         long produto = 1;
 
-        for (int i = 0; i <= 30; i++) {
+        for (int i = 0; i <= 10; i++) {
             if ((i % 2) != 0) {
                 soma = soma + i;
             }
         }
-        for (int i = 1; i <= 30; i++) {
+        for (int i = 1; i <= 10; i++) {
             if (i % 2 == 0) {
                 produto = produto * i;
             }
         }
         
-        System.out.println("Soma dos impares de 0 a 30: " + soma + "\n");
-        System.out.println("Produto dos pares de 0 a 30: " + produto + "\n");
+        System.out.println("Soma dos impares de 0 a 10: " + soma + "\n");
+        System.out.println("Produto dos pares de 0 a 10: " + produto + "\n");
     }
     
     
